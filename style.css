@@ -118,6 +118,6 @@ nav ul {
 .historia p {text-align: justify;
 
 }
-nav a:hover {
-    color: #da0303 ;
-}
+
+nav ul li a:hover {
+    color: #da0303;}
