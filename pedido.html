@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido | Pizza Master</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="pedido.html">Pedido</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Faça seu Pedido</h1>
+        <p>Escolha sua pizza favorita e receba em casa!</p>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <form>
+                <label>Seu Nome:</label>
+                <input type="text" placeholder="Digite seu nome completo" required>
+
+                <label>E-mail:</label>
+                <input type="email" placeholder="exemplo@email.com" required>
+
+                <label>Senha da Conta:</label>
+                <input type="password" placeholder="Crie uma senha" required>
+
+                <label>Escolha o Sabor:</label>
+                <select required>
+                    <option value="" disabled selected>Selecione um sabor...</option>
+                    <option>Calabresa - R$ 45,00</option>
+                    <option>Margherita - R$ 42,00</option>
+                    <option>Portuguesa - R$ 52,00</option>
+                    <option>4 Queijos - R$ 55,00</option>
+                    <option>Mussarela - R$ 38,00</option>
+                    <option>Francesa - R$ 54,00</option>
+                    <option>Frango Catupiri - R$ 49,00</option>
+                    <option>Napolitana - R$ 44,00</option>
+                    <option>Chocolate - R$ 40,00</option>
+                </select>
+
+                <label>Observações:</label>
+                <textarea rows="4" placeholder="Ex: Sem cebola, borda recheada, etc..."></textarea>
+
+                <button type="submit">Finalizar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Pizza Master - Sabores que encantam</p>
+    </footer>
+</body>
+</html>
