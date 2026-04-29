@@ -70,3 +70,6 @@ footer {
 margin-top: 200px;
 
 }
+nav a:hover {
+    color: #da0303 ;
+}

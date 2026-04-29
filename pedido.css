@@ -84,3 +84,6 @@ footer p {
 
     margin-top: 30px;
 }
+nav a:hover {
+    color: #da0303 ;
+}
